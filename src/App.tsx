@@ -18,7 +18,7 @@ const routerConfig: RouteConfig[] = [
     element: <HomePage />,
   },
   {
-    path: "/shopPage",
+    path: "/TechWorld-TypeScript/shopPage",
     element: <ShopPage />,
   },
   {
@@ -26,15 +26,15 @@ const routerConfig: RouteConfig[] = [
     element: <ProductPage />,
   },
   {
-    path: "/buyersPage",
+    path: "/TechWorld-TypeScript/buyersPage",
     element: <BuyersPage />,
   },
   {
-    path: "/blogPage",
+    path: "/TechWorld-TypeScript/blogPage",
     element: <BlogPage />,
   },
   {
-    path: "/contactsPage",
+    path: "/TechWorld-TypeScript/contactsPage",
     element: <ContactsPage />,
   },
 ];
