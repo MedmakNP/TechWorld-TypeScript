@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/TechWorld-TypeScript/static/css/main.24d78c68.css",
-    "main.js": "/TechWorld-TypeScript/static/js/main.f80b084b.js",
+    "main.js": "/TechWorld-TypeScript/static/js/main.eee1cb98.js",
     "static/js/453.23b1890e.chunk.js": "/TechWorld-TypeScript/static/js/453.23b1890e.chunk.js",
     "static/media/ipad.png": "/TechWorld-TypeScript/static/media/ipad.a5ed8e0bb08b826e4686.png",
     "static/media/case.png": "/TechWorld-TypeScript/static/media/case.5e37007d400b40d6b46f.png",
@@ -13,11 +13,11 @@
     "static/media/bg2.png": "/TechWorld-TypeScript/static/media/bg2.d2ea782bff715408adcd.png",
     "index.html": "/TechWorld-TypeScript/index.html",
     "main.24d78c68.css.map": "/TechWorld-TypeScript/static/css/main.24d78c68.css.map",
-    "main.f80b084b.js.map": "/TechWorld-TypeScript/static/js/main.f80b084b.js.map",
+    "main.eee1cb98.js.map": "/TechWorld-TypeScript/static/js/main.eee1cb98.js.map",
     "453.23b1890e.chunk.js.map": "/TechWorld-TypeScript/static/js/453.23b1890e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.24d78c68.css",
-    "static/js/main.f80b084b.js"
+    "static/js/main.eee1cb98.js"
   ]
 }
