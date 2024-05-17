@@ -1,26 +1,44 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import HomePage from "./Pages/homePage";
+import ShopPage from "./Pages/shopPage";
+import BuyersPage from "./Pages/buyersPage";
+import BlogPage from "./Pages/blogPage";
+import ContactsPage from "./Pages/contactsPage";
+import "./i18n";
+import { createBrowserRouter } from "react-router-dom";
+import ProductPage from "./Pages/product";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+interface RouteConfig {
+  path: string,
+  element: React.ReactNode
+  }
+const routerConfig: RouteConfig[] = [
+  {
+    path: "/*",
+    element: <HomePage />,
+  },
+  {
+    path: "/shopPage",
+    element: <ShopPage />,
+  },
+  {
+    path: "/product/:productId",
+    element: <ProductPage />,
+  },
+  {
+    path: "/buyersPage",
+    element: <BuyersPage />,
+  },
+  {
+    path: "/blogPage",
+    element: <BlogPage />,
+  },
+  {
+    path: "/contactsPage",
+    element: <ContactsPage />,
+  },
+];
+const router = createBrowserRouter(routerConfig)
 
-export default App;
+
+export default router;

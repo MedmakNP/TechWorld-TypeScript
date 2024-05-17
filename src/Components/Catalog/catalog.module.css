@@ -1,0 +1,48 @@
+.catalog {
+  height: 100%;
+  padding-bottom: 490px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  max-width: 1180px;
+  margin: 0 auto;
+}
+.title {
+  padding: 60px;
+  margin: 0px;
+  text-align: center;
+}
+.swiperWrap {
+  position: absolute;
+  max-width: 1200px;
+  margin: auto;
+}
+.swiper {
+  height: 660px;
+}
+.slideWrap {
+  display: flex;
+  justify-content: center;
+}
+@media only screen and (max-width: 1200px) {
+  .container {
+    max-width: 90%;
+  }
+  .swiperWrap {
+    max-width: 900px;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .container {
+    max-width: 100%;
+  }
+  .swiperWrap {
+    max-width: 580px;
+  }
+}
+@media only screen and (max-width: 580px) {
+  .swiperWrap {
+    max-width: 100%;
+  }
+}
