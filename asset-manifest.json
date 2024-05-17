@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/techworldts/static/css/main.563e8040.css",
-    "main.js": "/techworldts/static/js/main.92e04147.js",
-    "static/js/453.23b1890e.chunk.js": "/techworldts/static/js/453.23b1890e.chunk.js",
-    "static/media/ipad.png": "/techworldts/static/media/ipad.a5ed8e0bb08b826e4686.png",
-    "static/media/case.png": "/techworldts/static/media/case.5e37007d400b40d6b46f.png",
-    "static/media/iwatch.png": "/techworldts/static/media/iwatch.5c1c980a3eb9c5192b48.png",
-    "static/media/background.png": "/techworldts/static/media/background.3356d0904d72fd5c8628.png",
-    "static/media/AirPods.png": "/techworldts/static/media/AirPods.df230045618a8e348fde.png",
-    "static/media/modern-camera.jpg": "/techworldts/static/media/modern-camera.1ad9c96e6acc0319cc84.jpg",
-    "static/media/monitor-your-health.jpg": "/techworldts/static/media/monitor-your-health.4b6c4543a445064cd5e7.jpg",
-    "static/media/bg2.png": "/techworldts/static/media/bg2.d2ea782bff715408adcd.png",
-    "index.html": "/techworldts/index.html",
-    "main.563e8040.css.map": "/techworldts/static/css/main.563e8040.css.map",
-    "main.92e04147.js.map": "/techworldts/static/js/main.92e04147.js.map",
-    "453.23b1890e.chunk.js.map": "/techworldts/static/js/453.23b1890e.chunk.js.map"
+    "main.css": "/TechWorld-TypeScript/static/css/main.24d78c68.css",
+    "main.js": "/TechWorld-TypeScript/static/js/main.f80b084b.js",
+    "static/js/453.23b1890e.chunk.js": "/TechWorld-TypeScript/static/js/453.23b1890e.chunk.js",
+    "static/media/ipad.png": "/TechWorld-TypeScript/static/media/ipad.a5ed8e0bb08b826e4686.png",
+    "static/media/case.png": "/TechWorld-TypeScript/static/media/case.5e37007d400b40d6b46f.png",
+    "static/media/iwatch.png": "/TechWorld-TypeScript/static/media/iwatch.5c1c980a3eb9c5192b48.png",
+    "static/media/background.png": "/TechWorld-TypeScript/static/media/background.3356d0904d72fd5c8628.png",
+    "static/media/AirPods.png": "/TechWorld-TypeScript/static/media/AirPods.df230045618a8e348fde.png",
+    "static/media/modern-camera.jpg": "/TechWorld-TypeScript/static/media/modern-camera.1ad9c96e6acc0319cc84.jpg",
+    "static/media/monitor-your-health.jpg": "/TechWorld-TypeScript/static/media/monitor-your-health.4b6c4543a445064cd5e7.jpg",
+    "static/media/bg2.png": "/TechWorld-TypeScript/static/media/bg2.d2ea782bff715408adcd.png",
+    "index.html": "/TechWorld-TypeScript/index.html",
+    "main.24d78c68.css.map": "/TechWorld-TypeScript/static/css/main.24d78c68.css.map",
+    "main.f80b084b.js.map": "/TechWorld-TypeScript/static/js/main.f80b084b.js.map",
+    "453.23b1890e.chunk.js.map": "/TechWorld-TypeScript/static/js/453.23b1890e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.563e8040.css",
-    "static/js/main.92e04147.js"
+    "static/css/main.24d78c68.css",
+    "static/js/main.f80b084b.js"
   ]
 }
