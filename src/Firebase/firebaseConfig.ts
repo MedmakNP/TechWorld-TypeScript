@@ -32,18 +32,19 @@ const db = getDatabase();
   });
 
 } 
- interface Product {
+export interface ProductProps {
   Memory:[string];
   name: string;
   characterisctics:[];
-  cost:[];
+  cost:[number];
   img: [];
   id:number;
   color:[];
   rating:number;
+  type: string;
 }
 const useData = (path: string) => {
-  const [productData, setProductData] = useState<Product[]>([]);
+  const [productData, setProductData] = useState<ProductProps[]>([]);
 
   useEffect(() => {
     const fetchData = async () => {

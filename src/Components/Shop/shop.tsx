@@ -1,8 +1,8 @@
 import ShopView from "./shopView";
 import useData from "../../Firebase/firebaseConfig";
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 
-function Shop() {
+const Shop: React.FC = () => {
   const data = useData("products");
   const [currentData, setCurrentData] = useState(data);
   const [minCost, setMinCost] = useState(0);
@@ -12,7 +12,7 @@ function Shop() {
     setCurrentData(data);
   }, [data]);
 
-  const handleSortType = (value) => {
+  const handleSortType = (value: string) => {
     const dataType = data;
     setCurrentData(dataType.filter((elem) => elem.type === value));
     setActiveType(value);
@@ -21,10 +21,10 @@ function Shop() {
     setCurrentData(data);
     setActiveType("");
   };
-  const onInputChangeMin = (cost) => {
+  const onInputChangeMin = (cost: number) => {
     setMinCost(cost);
   };
-  const onInputChangeMax = (cost) => {
+  const onInputChangeMax = (cost: number) => {
     setmaxCost(cost);
   };
   const handleSort = () => {

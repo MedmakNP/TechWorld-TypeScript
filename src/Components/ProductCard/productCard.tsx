@@ -5,19 +5,9 @@ import style from "./slide.module.css";
 import { ThemeContext } from "../../Providers/ThemeProvider";
 import { useTranslation } from "react-i18next";
 import { Rating } from '@mui/material'
-
-interface Product {
-  Memory:[string];
-  name: string;
-  characterisctics:[];
-  cost:[];
-  img: [];
-  id:number;
-  color:[];
-  rating:number;
-}
+import { ProductProps } from "../../Firebase/firebaseConfig";
 interface ProductCardProps {
-  data: Product; 
+  data: ProductProps; 
 }
 
 const ProductCard: React.FC<ProductCardProps> = (props) => {

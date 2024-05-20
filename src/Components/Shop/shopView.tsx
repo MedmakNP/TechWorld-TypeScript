@@ -2,8 +2,20 @@ import style from "./shop.module.css";
 import ProductCard from "../ProductCard/productCard";
 import { useContext } from "react";
 import { BlurContext, ThemeContext } from "../../Providers/ThemeProvider";
+import { ProductProps } from "../../Firebase/firebaseConfig";
 
-function ShopView({
+interface ShopViewProps {
+  currentData:ProductProps[];
+  handleSortType: (type: string) => void;
+  activeType: string;
+  handleReturn: () => void;
+  onInputChangeMin: (value: number) => void;
+  onInputChangeMax: (value: number) => void;
+  filterCost: () => void;
+  handleSort: () => void;
+}
+
+const ShopView: React.FC<ShopViewProps> = ({
   currentData,
   handleSortType,
   activeType,
@@ -12,16 +24,17 @@ function ShopView({
   onInputChangeMin,
   filterCost,
   handleSort,
-}) {
+}) => {
   const { type } = useContext(ThemeContext);
   const { isBlurred } = useContext(BlurContext);
 
-  const handleChangeMin = (event) => {
-    const cost = event.target.value;
+  const handleChangeMin = (event: React.ChangeEvent<HTMLInputElement>) => {
+    console.log(event)
+    const cost = Number(event.target.value);
     onInputChangeMin(cost);
   };
-  const handleChangeMax = (event) => {
-    const cost = event.target.value;
+  const handleChangeMax = (event: React.ChangeEvent<HTMLInputElement>) => {
+    const cost = Number(event.target.value);
     onInputChangeMax(cost);
   };
   return (
@@ -58,13 +71,13 @@ function ShopView({
             <div className={style.inputWrap}>
               <input
                 className={style.input}
-                placeholder={0}
+                placeholder={'0'}
                 onChange={handleChangeMin}
               />
               <p>-</p>
               <input
                 className={style.input}
-                placeholder={0}
+                placeholder={'0'}
                 onChange={handleChangeMax}
               />
               <button className={style.btn} onClick={filterCost}>
@@ -95,3 +108,4 @@ function ShopView({
 }
 
 export default ShopView;
+
