@@ -1,5 +1,5 @@
 
-open
+open https://medmaknp.github.io/TechWorld-TypeScript/
 
 ## Available Scripts
 
